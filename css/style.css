@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600;700;800;900 & display=swap');
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --black-color: #101828;
+}
 * {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
@@ -34,3 +39,32 @@ header {
     border-radius: 8px;
 }
 /* Header */
+
+
+
+/* === Sec header ==== */
+.section-header {
+    text-align: center;
+    padding: 96px, 0px, 96px, 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.title-sec {
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--main-color);
+}
+h1 {
+    line-height: 60px;
+    color: var(--black-color);
+    letter-spacing: -0.02em;
+    font-size: 48px;
+}
+.desc-h1 {
+    max-width: 791px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* === Sec header ==== */
